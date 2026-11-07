@@ -1,36 +1,181 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pixel Arcade Store 🕹️
 
-## Getting Started
+# 🎮 Pixel Arcade Store
 
-First, run the development server:
+### Tu próximo nivel comienza aquí.
+
+Pixel Arcade Store es una tienda web de videojuegos desarrollada como proyecto escolar utilizando Next.js 16, React, TypeScript y Tailwind CSS.
+
+Su diseño está inspirado en la estética gamer futurista, utilizando fondos oscuros y detalles en colores neón morado y verde.
+
+---
+
+## 🚀 Características principales
+
+- 🏠 Página de inicio con videojuegos destacados.
+- 🎮 Catálogo de videojuegos.
+- 🔎 Buscador en tiempo real.
+- 🗂️ Filtros por categorías.
+- 💜 Sistema de videojuegos favoritos.
+- 💾 Almacenamiento de favoritos con localStorage.
+- 👾 Página de información de la tienda.
+- ⏳ Pantalla de carga.
+- ⚠️ Manejo de errores.
+
+## 🛠️ Tecnologías utilizadas
+
+| Tecnología | Descripción |
+|---|---|
+| Next.js 16 | Framework principal |
+| React | Construcción de interfaces |
+| TypeScript | Tipado del código |
+| Tailwind CSS | Diseño y estilos |
+| localStorage | Persistencia de favoritos |
+| Vercel | Plataforma de despliegue |
+
+## 📁 Estructura del proyecto
+
+```text
+pixel-arcade-store/
+│
+├── app/
+│   ├── catalog/
+│   │   ├── page.tsx
+│   │   ├── loading.tsx
+│   │   └── error.tsx
+│   │
+│   ├── favorites/
+│   │   └── page.tsx
+│   │
+│   ├── about/
+│   │   └── page.tsx
+│   │
+│   ├── page.tsx
+│   ├── layout.tsx
+│   └── globals.css
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Footer.tsx
+│   ├── GameCard.tsx
+│   └── SectionTitle.tsx
+│
+├── hooks/
+│   └── useFavorites.ts
+│
+├── data/
+│   └── games.ts
+│
+├── VIBE_CODING.md
+├── README.md
+├── package.json
+└── tsconfig.json
+```
+
+## 💻 Requisitos previos
+
+Antes de instalar el proyecto necesitas:
+
+- Node.js (versión compatible con Next.js 16).
+- npm.
+- Visual Studio Code (recomendado).
+- Conexión a internet.
+
+## 📥 Instalación
+
+### 1. Clonar el repositorio
+
+```bash
+git clone URL_DE_TU_REPOSITORIO
+```
+
+### 2. Entrar a la carpeta
+
+```bash
+cd pixel-arcade-store
+```
+
+### 3. Instalar dependencias
+
+```bash
+npm install
+```
+
+### 4. Ejecutar el proyecto
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Abrir en el navegador
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Visita la siguiente dirección:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+http://localhost:3000
 
-## Learn More
+## 🌐 Páginas disponibles
 
-To learn more about Next.js, take a look at the following resources:
+| Página | Ruta |
+|---|---|
+| Inicio | / |
+| Catálogo | /catalog |
+| Favoritos | /favorites |
+| Nosotros | /about |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Despliegue en Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+El proyecto puede publicarse utilizando Vercel.
 
-## Deploy on Vercel
+### Pasos para desplegar
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Sube el proyecto a un repositorio de GitHub.
+2. Ingresa a https://vercel.com/
+3. Inicia sesión con tu cuenta.
+4. Selecciona Add New Project.
+5. Importa el repositorio de Pixel Arcade Store.
+6. Verifica la configuración de Next.js.
+7. Presiona Deploy.
+8. Espera a que finalice la compilación.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Enlace de la aplicación desplegada
+
+**URL de producción:**
+
+PENDIENTE DE PUBLICACIÓN
+
+Reemplazar este espacio con la URL proporcionada por Vercel.
+
+Ejemplo de formato:
+
+https://pixel-arcade-store.vercel.app
+
+## 🤖 Uso de inteligencia artificial
+
+Durante el desarrollo se utilizó ChatGPT como asistente de programación mediante la metodología Vibe Coding.
+
+Se utilizó para:
+
+- Diseñar la estructura inicial.
+- Generar componentes reutilizables.
+- Implementar funcionalidades.
+- Corregir errores de importación y TypeScript.
+- Mejorar el diseño visual.
+- Documentar el proyecto.
+
+Para conocer el proceso completo, consultar el archivo `VIBE_CODING.md`.
+
+## 📌 Estado del proyecto
+
+Proyecto escolar en desarrollo.
+
+Las funcionalidades actuales se enfocan en la presentación del catálogo y la administración local de videojuegos favoritos.
+
+No incluye todavía un sistema de pagos, autenticación de usuarios ni conexión a una base de datos.
+
+## 👨‍💻 Autor
+
+Proyecto académico: Pixel Arcade Store.
+
+## 📄 Licencia
+
+Proyecto desarrollado con fines educativos.
